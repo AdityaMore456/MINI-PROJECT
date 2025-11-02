@@ -55,11 +55,11 @@ export default function Hero({ setShowBookingModal, addNotification }) {
           <div className="relative animate-fade-in-up" style={{animationDelay: '0.3s'}}>
             <div className="relative z-10 bg-white rounded-3xl shadow-2xl p-8 transform hover:scale-105 transition-all duration-300">
               <div className="aspect-square bg-gradient-to-br from-blue-400 to-purple-600 rounded-2xl flex items-center justify-center relative overflow-hidden">
-                <img src="/images/hero/hospital-main.jpg" alt="Modern Hospital Facility"
+                <img src="/images/hero/hospital-main.webp" alt="Modern Hospital Facility"
                   className="w-full h-full object-cover rounded-2xl"
                   onError={(e) => { e.target.style.display = 'none'; e.target.nextSibling.style.display = 'flex'; }} />
                 <div className="hidden absolute inset-0 bg-gradient-to-br from-blue-500/20 to-purple-500/20 flex-col items-center justify-center text-white">
-                  <div className="text-6xl mb-4">í¿¥</div>
+                  <div className="text-6xl mb-4">ï¿½ï¿½ï¿½</div>
                   <h3 className="text-3xl font-bold mb-2">Modern Facility</h3>
                   <p className="text-lg mb-4">State-of-the-art equipment</p>
                   <div className="flex justify-center space-x-4">

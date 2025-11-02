@@ -38,7 +38,7 @@ export default function Header({ activePage, setActivePage, smoothScroll, setSho
               <Activity className="w-8 h-8 text-white" />
             </div>
             <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              MediCare+
+              HealthCare++
             </span>
           </div>
           <div className="hidden md:flex items-center space-x-8">

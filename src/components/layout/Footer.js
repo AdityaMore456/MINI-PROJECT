@@ -20,7 +20,7 @@ export default function Footer({ setActivePage, smoothScroll, addNotification })
               <div className="bg-gradient-to-br from-blue-500 to-purple-500 p-2 rounded-xl">
                 <Activity className="w-8 h-8" />
               </div>
-              <span className="text-2xl font-bold">MediCare+</span>
+              <span className="text-2xl font-bold">HealthCare+</span>
             </div>
             <p className="text-gray-300 mb-6">Providing world-class healthcare services with compassion and excellence.</p>
             <div className="flex space-x-4">
@@ -63,25 +63,25 @@ export default function Footer({ setActivePage, smoothScroll, addNotification })
               <li className="flex items-start space-x-3 cursor-pointer hover:text-blue-300 transition-colors"
                 onClick={() => addNotification('Address copied!', 'success')}>
                 <MapPin className="w-5 h-5 text-blue-400 flex-shrink-0 mt-1" />
-                <span className="text-gray-300">123 Medical Center Dr, Health City, HC 12345</span>
+                <span className="text-gray-300">FLat no. 104, Akshar Empire, Jaybhave Nagar, Nashik - 422009 </span>
               </li>
               <li className="flex items-center space-x-3 cursor-pointer hover:text-blue-300 transition-colors"
                 onClick={() => addNotification('Phone ready to call!', 'success')}>
                 <Phone className="w-5 h-5 text-blue-400" />
-                <span className="text-gray-300">+1 (555) 123-4567</span>
+                <span className="text-gray-300">+91 7709504187</span>
               </li>
               <li className="flex items-center space-x-3 cursor-pointer hover:text-blue-300 transition-colors"
                 onClick={() => addNotification('Email copied!', 'success')}>
                 <Mail className="w-5 h-5 text-blue-400" />
-                <span className="text-gray-300">info@medicareplus.com</span>
+                <span className="text-gray-300">adityam.etc_ioe@bkc.met.edu</span>
               </li>
             </ul>
           </div>
         </div>
         <div className="border-t border-gray-700 pt-8 text-center text-gray-400">
-          <p>&copy; 2025 MediCare+. All rights reserved. Developed with ❤️ for better healthcare.</p>
+          <p>&copy; 2025 HealthCare+. All rights reserved. Developed with ❤️ for better healthcare.</p>
         </div>
-      </div>
+      </div>  
     </footer>
   );
 }
